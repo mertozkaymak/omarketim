@@ -1,10 +1,10 @@
 {
-  "name": "Omarketim",
+  "name": "***",
   "description": "XML Modifikasyon Eklentisi",
   "version": "1.0",
   "manifest_version": 2,
   "content_scripts": [ {
-    "matches": ["https://omarketim.myideasoft.com/admin/"],
+    "matches": ["***.myideasoft.com/admin/"],
     "js": ["jquery.js", "jquery.dataTables.min.js", "background.js"],
     "all_frames": false,
     "match_about_blank": false,
